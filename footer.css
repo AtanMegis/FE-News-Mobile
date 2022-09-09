@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Prompt:wght@400;600&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--prompt-font: "Prompt", sans-serif;
+	--lato-font: "Lato", sans-serif;
+}
+
+.footer-container {
+	background-color: #000000;
+}
+
+.footer-container a {
+	text-decoration: none;
+	font-family: var(--prompt-font);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.address-footer,
+.copyright-footer {
+	font-family: var(--lato-font);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 15px;
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 20px;
+}
